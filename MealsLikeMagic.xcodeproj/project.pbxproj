@@ -15,6 +15,9 @@
 		2CBA7323215A388B003B7477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CBA7321215A388B003B7477 /* LaunchScreen.storyboard */; };
 		2CBA732E215A388B003B7477 /* MealsLikeMagicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA732D215A388B003B7477 /* MealsLikeMagicTests.swift */; };
 		2CBA7339215A388B003B7477 /* MealsLikeMagicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA7338215A388B003B7477 /* MealsLikeMagicUITests.swift */; };
+		8D659F5804CAF38CB553BE1F /* libPods-MealsLikeMagicUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C76EBEF358E023E68ECE16AE /* libPods-MealsLikeMagicUITests.a */; };
+		C9B1F66D6CEC58157C690DD2 /* libPods-MealsLikeMagic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E51FB73D1324965A91D9E7E /* libPods-MealsLikeMagic.a */; };
+		CF8589C4604B31292C00F7EE /* libPods-MealsLikeMagicTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 860D71093C4149FA4F95C292 /* libPods-MealsLikeMagicTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01F5A835F740F50604CC9980 /* Pods-MealsLikeMagic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealsLikeMagic.release.xcconfig"; path = "Pods/Target Support Files/Pods-MealsLikeMagic/Pods-MealsLikeMagic.release.xcconfig"; sourceTree = "<group>"; };
 		2CBA7312215A388B003B7477 /* MealsLikeMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealsLikeMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBA7315215A388B003B7477 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CBA7317215A388B003B7477 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +53,14 @@
 		2CBA7334215A388B003B7477 /* MealsLikeMagicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealsLikeMagicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBA7338215A388B003B7477 /* MealsLikeMagicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsLikeMagicUITests.swift; sourceTree = "<group>"; };
 		2CBA733A215A388B003B7477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39D9BCB28AF94E9E7ECDE4E8 /* Pods-MealsLikeMagicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealsLikeMagicTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MealsLikeMagicTests/Pods-MealsLikeMagicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4194C1FE15AFB6B24AB7CBCF /* Pods-MealsLikeMagicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealsLikeMagicUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MealsLikeMagicUITests/Pods-MealsLikeMagicUITests.release.xcconfig"; sourceTree = "<group>"; };
+		860D71093C4149FA4F95C292 /* libPods-MealsLikeMagicTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MealsLikeMagicTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E51FB73D1324965A91D9E7E /* libPods-MealsLikeMagic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MealsLikeMagic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		901488BB5E12CD0052D34319 /* Pods-MealsLikeMagicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealsLikeMagicUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MealsLikeMagicUITests/Pods-MealsLikeMagicUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8D3F810A04E1ADD88BF77B4 /* Pods-MealsLikeMagicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealsLikeMagicTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MealsLikeMagicTests/Pods-MealsLikeMagicTests.release.xcconfig"; sourceTree = "<group>"; };
+		C3224FF36105552112EA9411 /* Pods-MealsLikeMagic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealsLikeMagic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MealsLikeMagic/Pods-MealsLikeMagic.debug.xcconfig"; sourceTree = "<group>"; };
+		C76EBEF358E023E68ECE16AE /* libPods-MealsLikeMagicUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MealsLikeMagicUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9B1F66D6CEC58157C690DD2 /* libPods-MealsLikeMagic.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF8589C4604B31292C00F7EE /* libPods-MealsLikeMagicTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8D659F5804CAF38CB553BE1F /* libPods-MealsLikeMagicUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				2CBA732C215A388B003B7477 /* MealsLikeMagicTests */,
 				2CBA7337215A388B003B7477 /* MealsLikeMagicUITests */,
 				2CBA7313215A388B003B7477 /* Products */,
+				BF06DC7100B4D6103998FD9F /* Pods */,
+				7DBC74541DC74A912F5331A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +116,10 @@
 		2CBA7314215A388B003B7477 /* MealsLikeMagic */ = {
 			isa = PBXGroup;
 			children = (
+				2CBA7348215A41E4003B7477 /* controller */,
+				2CBA7347215A41DE003B7477 /* view */,
+				2CBA7346215A41D3003B7477 /* model */,
 				2CBA7315215A388B003B7477 /* AppDelegate.swift */,
-				2CBA7317215A388B003B7477 /* ViewController.swift */,
 				2CBA7319215A388B003B7477 /* Main.storyboard */,
 				2CBA731F215A388B003B7477 /* Assets.xcassets */,
 				2CBA7321215A388B003B7477 /* LaunchScreen.storyboard */,
@@ -128,6 +147,51 @@
 			path = MealsLikeMagicUITests;
 			sourceTree = "<group>";
 		};
+		2CBA7346215A41D3003B7477 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		2CBA7347215A41DE003B7477 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		2CBA7348215A41E4003B7477 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				2CBA7317215A388B003B7477 /* ViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
+		7DBC74541DC74A912F5331A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E51FB73D1324965A91D9E7E /* libPods-MealsLikeMagic.a */,
+				860D71093C4149FA4F95C292 /* libPods-MealsLikeMagicTests.a */,
+				C76EBEF358E023E68ECE16AE /* libPods-MealsLikeMagicUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF06DC7100B4D6103998FD9F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3224FF36105552112EA9411 /* Pods-MealsLikeMagic.debug.xcconfig */,
+				01F5A835F740F50604CC9980 /* Pods-MealsLikeMagic.release.xcconfig */,
+				39D9BCB28AF94E9E7ECDE4E8 /* Pods-MealsLikeMagicTests.debug.xcconfig */,
+				A8D3F810A04E1ADD88BF77B4 /* Pods-MealsLikeMagicTests.release.xcconfig */,
+				901488BB5E12CD0052D34319 /* Pods-MealsLikeMagicUITests.debug.xcconfig */,
+				4194C1FE15AFB6B24AB7CBCF /* Pods-MealsLikeMagicUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CBA733D215A388B003B7477 /* Build configuration list for PBXNativeTarget "MealsLikeMagic" */;
 			buildPhases = (
+				0E0FBFAF05748FBD3FE3746B /* [CP] Check Pods Manifest.lock */,
 				2CBA730E215A388B003B7477 /* Sources */,
 				2CBA730F215A388B003B7477 /* Frameworks */,
 				2CBA7310215A388B003B7477 /* Resources */,
@@ -152,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CBA7340215A388B003B7477 /* Build configuration list for PBXNativeTarget "MealsLikeMagicTests" */;
 			buildPhases = (
+				AB99060EFD789E9A7C038905 /* [CP] Check Pods Manifest.lock */,
 				2CBA7325215A388B003B7477 /* Sources */,
 				2CBA7326215A388B003B7477 /* Frameworks */,
 				2CBA7327215A388B003B7477 /* Resources */,
@@ -170,6 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CBA7343215A388B003B7477 /* Build configuration list for PBXNativeTarget "MealsLikeMagicUITests" */;
 			buildPhases = (
+				7A8A054B5A085C3207F9E2AC /* [CP] Check Pods Manifest.lock */,
 				2CBA7330215A388B003B7477 /* Sources */,
 				2CBA7331215A388B003B7477 /* Frameworks */,
 				2CBA7332215A388B003B7477 /* Resources */,
@@ -259,6 +326,63 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E0FBFAF05748FBD3FE3746B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MealsLikeMagic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A8A054B5A085C3207F9E2AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MealsLikeMagicUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB99060EFD789E9A7C038905 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MealsLikeMagicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2CBA730E215A388B003B7477 /* Sources */ = {
@@ -419,6 +543,7 @@
 		};
 		2CBA733E215A388B003B7477 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3224FF36105552112EA9411 /* Pods-MealsLikeMagic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 65TN37L2QS;
@@ -432,6 +557,7 @@
 		};
 		2CBA733F215A388B003B7477 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01F5A835F740F50604CC9980 /* Pods-MealsLikeMagic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 65TN37L2QS;
@@ -445,6 +571,7 @@
 		};
 		2CBA7341215A388B003B7477 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39D9BCB28AF94E9E7ECDE4E8 /* Pods-MealsLikeMagicTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +587,7 @@
 		};
 		2CBA7342215A388B003B7477 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8D3F810A04E1ADD88BF77B4 /* Pods-MealsLikeMagicTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -475,6 +603,7 @@
 		};
 		2CBA7344215A388B003B7477 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 901488BB5E12CD0052D34319 /* Pods-MealsLikeMagicUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 65TN37L2QS;
@@ -489,6 +618,7 @@
 		};
 		2CBA7345215A388B003B7477 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4194C1FE15AFB6B24AB7CBCF /* Pods-MealsLikeMagicUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 65TN37L2QS;
@@ -520,6 +650,7 @@
 				2CBA733F215A388B003B7477 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CBA7340215A388B003B7477 /* Build configuration list for PBXNativeTarget "MealsLikeMagicTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +659,7 @@
 				2CBA7342215A388B003B7477 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CBA7343215A388B003B7477 /* Build configuration list for PBXNativeTarget "MealsLikeMagicUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +668,7 @@
 				2CBA7345215A388B003B7477 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
