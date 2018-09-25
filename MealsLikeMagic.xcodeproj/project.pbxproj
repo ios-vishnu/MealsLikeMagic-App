@@ -15,8 +15,6 @@
 		2CBA7323215A388B003B7477 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CBA7321215A388B003B7477 /* LaunchScreen.storyboard */; };
 		2CBA732E215A388B003B7477 /* MealsLikeMagicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA732D215A388B003B7477 /* MealsLikeMagicTests.swift */; };
 		2CBA7339215A388B003B7477 /* MealsLikeMagicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA7338215A388B003B7477 /* MealsLikeMagicUITests.swift */; };
-		2CBA7350215A4C16003B7477 /* fgf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA734F215A4C16003B7477 /* fgf.swift */; };
-		2CBA7352215A4C25003B7477 /* gfgfg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBA7351215A4C25003B7477 /* gfgfg.swift */; };
 		8D659F5804CAF38CB553BE1F /* libPods-MealsLikeMagicUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C76EBEF358E023E68ECE16AE /* libPods-MealsLikeMagicUITests.a */; };
 		C9B1F66D6CEC58157C690DD2 /* libPods-MealsLikeMagic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E51FB73D1324965A91D9E7E /* libPods-MealsLikeMagic.a */; };
 		CF8589C4604B31292C00F7EE /* libPods-MealsLikeMagicTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 860D71093C4149FA4F95C292 /* libPods-MealsLikeMagicTests.a */; };
@@ -55,8 +53,6 @@
 		2CBA7334215A388B003B7477 /* MealsLikeMagicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MealsLikeMagicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CBA7338215A388B003B7477 /* MealsLikeMagicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsLikeMagicUITests.swift; sourceTree = "<group>"; };
 		2CBA733A215A388B003B7477 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2CBA734F215A4C16003B7477 /* fgf.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fgf.swift; sourceTree = "<group>"; };
-		2CBA7351215A4C25003B7477 /* gfgfg.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gfgfg.swift; sourceTree = "<group>"; };
 		39D9BCB28AF94E9E7ECDE4E8 /* Pods-MealsLikeMagicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealsLikeMagicTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MealsLikeMagicTests/Pods-MealsLikeMagicTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4194C1FE15AFB6B24AB7CBCF /* Pods-MealsLikeMagicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealsLikeMagicUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MealsLikeMagicUITests/Pods-MealsLikeMagicUITests.release.xcconfig"; sourceTree = "<group>"; };
 		860D71093C4149FA4F95C292 /* libPods-MealsLikeMagicTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MealsLikeMagicTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,10 +116,8 @@
 		2CBA7314215A388B003B7477 /* MealsLikeMagic */ = {
 			isa = PBXGroup;
 			children = (
-				2CBA7348215A41E4003B7477 /* controller1 */,
-				2CBA7347215A41DE003B7477 /* view1 */,
-				2CBA7346215A41D3003B7477 /* model1 */,
 				2CBA7315215A388B003B7477 /* AppDelegate.swift */,
+				2CBA7317215A388B003B7477 /* ViewController.swift */,
 				2CBA7319215A388B003B7477 /* Main.storyboard */,
 				2CBA731F215A388B003B7477 /* Assets.xcassets */,
 				2CBA7321215A388B003B7477 /* LaunchScreen.storyboard */,
@@ -149,30 +143,6 @@
 				2CBA733A215A388B003B7477 /* Info.plist */,
 			);
 			path = MealsLikeMagicUITests;
-			sourceTree = "<group>";
-		};
-		2CBA7346215A41D3003B7477 /* model1 */ = {
-			isa = PBXGroup;
-			children = (
-				2CBA7351215A4C25003B7477 /* gfgfg.swift */,
-			);
-			name = model1;
-			sourceTree = "<group>";
-		};
-		2CBA7347215A41DE003B7477 /* view1 */ = {
-			isa = PBXGroup;
-			children = (
-				2CBA734F215A4C16003B7477 /* fgf.swift */,
-			);
-			name = view1;
-			sourceTree = "<group>";
-		};
-		2CBA7348215A41E4003B7477 /* controller1 */ = {
-			isa = PBXGroup;
-			children = (
-				2CBA7317215A388B003B7477 /* ViewController.swift */,
-			);
-			name = controller1;
 			sourceTree = "<group>";
 		};
 		7DBC74541DC74A912F5331A8 /* Frameworks */ = {
@@ -395,11 +365,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CBA7352215A4C25003B7477 /* gfgfg.swift in Sources */,
 				2CBA7318215A388B003B7477 /* ViewController.swift in Sources */,
 				2CBA731E215A388B003B7477 /* MealsLikeMagic.xcdatamodeld in Sources */,
 				2CBA7316215A388B003B7477 /* AppDelegate.swift in Sources */,
-				2CBA7350215A4C16003B7477 /* fgf.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
