@@ -1,0 +1,6 @@
+module Pods_MealsLikeMagic {
+  umbrella header "Pods-MealsLikeMagic-umbrella.h"
+
+  export *
+  module * { export * }
+}
