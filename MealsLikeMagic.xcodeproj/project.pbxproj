@@ -91,6 +91,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C539302216B291800D8AD6D /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		2C539303216B292200D8AD6D /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		2C539304216B292800D8AD6D /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				2CBA7317215A388B003B7477 /* ViewController.swift */,
+			);
+			name = controller;
+			sourceTree = "<group>";
+		};
 		2CBA7309215A388B003B7477 = {
 			isa = PBXGroup;
 			children = (
@@ -116,8 +138,10 @@
 		2CBA7314215A388B003B7477 /* MealsLikeMagic */ = {
 			isa = PBXGroup;
 			children = (
+				2C539304216B292800D8AD6D /* controller */,
+				2C539303216B292200D8AD6D /* view */,
+				2C539302216B291800D8AD6D /* model */,
 				2CBA7315215A388B003B7477 /* AppDelegate.swift */,
-				2CBA7317215A388B003B7477 /* ViewController.swift */,
 				2CBA7319215A388B003B7477 /* Main.storyboard */,
 				2CBA731F215A388B003B7477 /* Assets.xcassets */,
 				2CBA7321215A388B003B7477 /* LaunchScreen.storyboard */,
